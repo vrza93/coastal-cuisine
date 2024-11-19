@@ -1,0 +1,119 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+main {
+  padding: 20px;
+}
+
+.category {
+  background-color: #222;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.menu {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left; /* Aligns menu items to the left */
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 1.6rem;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #ffcc00; /* Yellow */
+  text-align: left; /* Aligns titles to the left */
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ffcc00; /* Yellow */
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.price {
+  float: right; /* Moves prices to the right */
+}
+
+.menu-item {
+  text-align: left; /* Aligns menu items to the left */
+  clear: both; /* Clears the float */
+}
+
+.category-link:hover .category {
+  transform: scale(1.05); /* Increase scale on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.back-button-container {
+  text-align: center; /* Center the button horizontally */
+}
+
+.back-button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-bottom: 40px;
+  background-color: #ffcc00; /* Yellow */
+  color: #333; /* Dark color for text */
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.back-button:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #222;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+footer a:visited {
+  color: orange;
+}
